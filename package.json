@@ -2,18 +2,23 @@
   "name": "taller2",
   "version": "1.0.0",
   "description": "Node.js on Docker with Express",
-  "author": "Ignacio Aedo <ignaciods.3108@gmail.com>",
+  "author": "Felipe Pulgar <felipepulgara@gmail.com>",
   "main": "server.js",
   "scripts": {
     "start": "cross-env APPLICATION_ENV=qa node server.js",
-    "prod": "cross-env APPLICATION_ENV=prod node server.js"
+    "prod": "cross-env APPLICATION_ENV=prod node server.js",
+    "dev": "nodemon cross-env APPLICATION_ENV=qa node server.js"
   },
   "dependencies": {
     "applicationinsights": "^1.0.3",
     "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
     "dotenv": "^8.0.0",
     "express": "^4.16.1",
     "node-fetch": "^2.6.0",
-    "cross-env": "^5.2.0"
+    "written-number": "^0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
