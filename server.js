@@ -15,12 +15,12 @@ app.use(
     origin: function(origin, callback) {
       // allow requests with no origin
       // (like mobile apps or curl requests)
-      if (!origin) return callback(null, true);
-      if (allowedOrigins.indexOf(origin) === -1) {
-        const msg = "Origen " + "no permitido.";
-        console.log(msg + " origin:" + origin);
-        return callback(new Error(msg), false);
-      }
+      // if (!origin) return callback(null, true);
+      // if (allowedOrigins.indexOf(origin) === -1) {
+      //   const msg = "Origen " + "no permitido.";
+      //   console.log(msg + " origin:" + origin);
+      //   return callback(new Error(msg), false);
+      // }
       return callback(null, true);
     }
   })
