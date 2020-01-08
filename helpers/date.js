@@ -1,7 +1,7 @@
 /**
  * Devuelve la edad de una persona según su fecha de nacimiento
  * @param {(date)} date : 1992-09-18
- * @version        1.0.0 - 01-08-2020
+ * @version        1.4.1 - 01-08-2020
  * @author         Felipe Pulgar
  * @returns {number} = 27
  */

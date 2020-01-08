@@ -4,7 +4,7 @@ const { apiUri } = config;
 
 /**
  * Retorna un texto con valor de UF del día actual
- * @version        1.0.0 - 01-08-2020
+ * @version        1.4.1 - 01-08-2020
  * @author         Felipe Pulgar
  * @returns {string} = El valor de Unidad de fomento (UF) es de $ 28317.25
  */

@@ -1,20 +1,35 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introducción
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+TODO: Esta es una aplicación la cual consta de endpoints para poder ver la representación en palabras de un número, obtener el valor actual de uf, mostrar la edad de una persona y generar un código qr en base a una url.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Para comenzar
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+TODO: Guia de usuario que contiene los pasos para poder descargar y ejecutar la aplicación. En esta sección verás:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. Clonar el repositorio
+2. Instalar dependencias necesarias
+3. Últimos lanzamientos
+4. Referencias a API
+
+# Ejercución y pruebas
+
+TODO: A continuación, se describirar los pasos necesarios para probar y ejecutar la aplicación.
+
+1. Clonar la aplicación desde github en un directorio.
+2. El nombre del proyecto debe ser "taller2".
+3. Instalar las siguientes dependencias, para ello, en una terminal ubicada en la ruta del proyecto, ejecutar npm i para que se instalen las dependencias del proyecto.
+4. Para ejecutar aplicación, en en una terminal ubicada en la ruta del proyecto, ejecutar:
+
+- npm run start
+
+5. Aplicación se ejecutará en puerto definido en archivo .env
+
+# Contribuciones
+
+TODO: Los métodos implementados en esta aplicación fueron desarrollados por:
+Felipe Pulgar - felipepulgara@gmail.com
+
+A continuación se listan las librerias usadas en la aplicación para su funcionamiento:
+
+- [qr-image](https://www.npmjs.com/package/qr-image)
+- [written-number](https://www.npmjs.com/package/written-number)

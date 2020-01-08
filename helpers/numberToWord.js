@@ -5,7 +5,7 @@ writtenNumber.defaults.lang = "es";
 /**
  * Convierte un número en su representación en palabras
  * @param {(number)} number : 123
- * @version        1.0.0 - 01-08-2020
+ * @version        1.4.1 - 01-08-2020
  * @author         Felipe Pulgar
  * @returns {string} = ciento veintitrés
  */
